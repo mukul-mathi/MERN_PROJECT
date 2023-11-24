@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgb(213, 213, 213);
+    margin: 1rem auto;
+    width: 90%;
+
+    li {
+        padding: 1rem;
+        flex: 1;
+
+        button {
+            margin: 5px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.completed {
+    background-color: green;
+    color: white;
+}
